@@ -86,7 +86,7 @@ header a:hover {
 
 .container-2 {
     display: flex;
-    flex-flow: row wrap ;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: center;
     gap: 30px;
@@ -122,7 +122,7 @@ header a:hover {
 
 .container-3 h1 {
     font-size: 65px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
 .projetos {
@@ -181,4 +181,61 @@ header a:hover {
     text-decoration: none;
     color: gray;
     font-size: 20px;
+    transition: 0.6s;
+}
+
+.me-git:hover {
+   
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+
+
+.container-4 {
+    margin-top: 170px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.container-4 h1 {
+    font-size: 65px;
+}
+
+.habilidades {
+    margin-top: 80px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.habilidades div {
+    background: #F0F0F0;
+    box-shadow: 9px 10px 13px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    max-width: 700px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    transition: 0.5s;
+}
+
+.habilidades div:hover {
+    background: #e6e5e5;
+    box-shadow: 24px 25px 28px -18px rgba(0, 0, 0, 0.25);
+}
+
+
+.habilidades div p {
+    margin-left: 45px;
+    max-width: 400px;
+
 }
